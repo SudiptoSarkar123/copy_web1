@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,100;0,400;0,500;0,700;1,400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +8,7 @@
 }
 body{
     /* background-color: rgb(0, 0, 0); */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* ********************* NAV STYLING *********** */
@@ -86,7 +90,7 @@ body{
     background-color: rgba(0,0,0,0.7);
     z-index: 1;
 }
-nav,.hero h1, .hero p, .next-elements {
+nav,.hero h1, .hero p, .next-elements, .hero .t-border {
     position: relative; 
     z-index: 2;
 }

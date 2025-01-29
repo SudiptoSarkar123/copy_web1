@@ -276,3 +276,48 @@ nav,.hero h1, .hero p, .next-elements, .hero .t-border {
     gap: 10px;
 }
 
+/* ++++++++++++++++++++++++ section 5 ++++++++++++++++ */
+
+.section5{
+    padding: 75px 0px;
+}
+.section5 .text-container{
+    text-align: center;
+    text-transform: uppercase;
+}
+.section5 .text-container p{
+    font-size: 14px;
+}
+
+.section5 .text-container h1{
+    font-size: 40px;
+}
+
+.section5 .cards-container {
+    background-color: red;
+    display: flex;
+    padding: 60px 0px;
+    flex-direction: column;
+    gap: 10px;
+}
+.section5 .cards-container .row1{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+.section5 .cards-container .card{
+    width: 324px;
+}
+.section5 .cards-container .card .image-content{
+    overflow: hidden;
+    position: center;
+}
+
+.section5 .cards-container .card .text-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 10px;
+    text-align: justify;
+    font-size: 14px;
+}

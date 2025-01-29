@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -25,18 +26,18 @@
         </nav>
 
         <div class="hero">
-            <div class="hero-container">
+            <div class="hero-container" >
                     <div class="t-border"></div>
     
                     <div class="text-container">
-                        <h1>Unforgettable Nights at The</h1>
-                        <h1> City of New York</h1>
+                        <h1 data-aos="fade-right">Unforgettable Nights at The</h1>
+                        <h1 data-aos="fade-left"> City of New York</h1>
     
-                        <p><span>Raise the glass and experience the best in craft beers and cocktails.</span></p>
+                        <p data-aos="fade-up"><span>Raise the glass and experience the best in craft beers and cocktails.</span></p>
                     </div>
                 
-                <div class="next-elements">
-                    <div class="book-table2">BOOK A TABLE</div>
+                <div class="next-elements" data-aos="fade-right">
+                    <div class="book-table2" >BOOK A TABLE</div>
                     <span>or</span><span>(406) 555-0120</span>
                 </div>
             </div>
@@ -53,8 +54,8 @@
             <h1>Where Good Times and Great Drinks Meet</h1>
             <p class="second_para">Come to Pub & Lounge and unwind with your favorite drink while enjoying our vibrant decor and lively ambiance. Our talented bartenders craft the best cocktails in town, accompanied by a delicious menu to satisfy your appetite. Whether you're catching up with friends, having a date night, or just looking for a great time, you'll find it here at Pub & Lounge.</p>
         </div>
-        <div class="image-container">
-            <img src="image/sexy-girls.jpg" alt="">
+        <div class="image-container" data-aos="fade-up">
+            <img src="image/sexy-girls.jpg" alt="" data-aos="fade-up">
         </div>
     </div>
 
@@ -63,7 +64,7 @@
     <div class="section3">
 
         <div class="image-container">
-            <img src="image/Bro.jpg" alt="">
+            <img src="image/Bro.jpg" alt="" data-aos="fade-up">
         </div>
         <div class="text-container3">
             <p class="first_para">MEET THE HOST</p>
@@ -101,7 +102,9 @@
         <div class="cards-container">
             <div class="row1">
                 <div class="card">
-                    <img src="" alt="">
+                    <div class="image-content">
+                        <img src="image/menu-05 (1).jpg" alt="">
+                    </div>
                     <div class="text-content">
                         <h1>Craft Beer
                         </h1>
@@ -122,9 +125,11 @@
                             </p>
                         </div>
                     </div>
+               </div>
+               <div class="card">
+                <div class="image-content">
+                    <img src="image/menu-04 (1).jpg" alt="">
                 </div>
-                <div class="card">
-                    <img src="" alt="">
                     <div class="text-content">
                         <h1>Cocktails</h1>
                         <div class="details">
@@ -195,7 +200,7 @@
 
 
 
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
